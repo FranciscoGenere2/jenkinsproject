@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("verify tooling") {
       steps {
-        sh 'python --version'
+        echo "BIENVENIDOOOOOOOOOOOOOOO"
       }
     }
   }   
