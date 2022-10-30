@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("verify tooling") {
       steps {
-        sh 'sudo apt-get install docker'
+        sh 'python --version'
       }
     }
   }   
