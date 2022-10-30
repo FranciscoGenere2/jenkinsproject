@@ -1,6 +1,8 @@
 pipeline {
+    agent any
+
     stages {
-        stage('VERSION DE DOCKER') {
+        stage('Saludo') {
             steps {
                 sh 'docker --version'
             }
